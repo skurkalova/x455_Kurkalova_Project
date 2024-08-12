@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Process: Start to Finish</title> 
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script
+      type="text/JavaScript"
+      src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+    ></script>
+    <script
+      type="text/JavaScript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.31.3/js/jquery.tablesorter.min.js"
+    ></script>
+    <link rel="stylesheet" href="style.css" />  
+  </head>
+  <body class="body">  
+    <div class="smaller">
+    <div class="mainparent">
+      <div class="navbar">
+        <img src="images/logo.png" alt="Logo" class="logoonscreen" />
+        <a href="index.html">HOME</a>
+        <a href="page2.html">PANDEMIC MADNESS</a>
+        <a href="page3.html">SKETCHING AND SUPPLIES</a>
+        <a href="page4.html">TOOLS AND TIMELINE</a>
+        <a href="page5.html">CUTE VIDEOS</a>
+        <a href="page6.html">DETAILS</a>
+        <a href="#"
+          ><img
+            src="images/search icon.webp"
+            alt="Search Icon"
+            class="searchicon"
+        /></a>
+        <a href="#"
+          ><img
+            src="images/shopping cart icon 1.png"
+            alt="Shopping Cart Icon"
+            class="shoppingcarticon"
+        /></a>
+      </div>
+      <div class="vl"></div>
+      <div class="mainchild">
+        <h1>Tools and Timeline</h1>
+        <h2 class="heading2">Clay to Shipping</h2> 
+        <div class="unsorted1">
+          <table id="boxing" class="unsorted2">
+            <thead>
+              <tr class="unsorted3">
+                <th>IMAGE</th>
+                <th>TIME SPENT</th>
+                <th>NUMBER OF TOOLS USED</th>
+                <th>DURABILITY</th>
+              </tr>
+            </thead>
+            <tr class="unsorted4">
+              <td><img src="images/page 4_1.JPG" style="width: 120px" /></td>
+              <td>5 - 10 minutes</td>
+              <td>3</td>
+              <td>1 - Low</td>
+            </tr>
+            <tr class="unsorted4">
+              <td>
+                <img src="images/page 4_2.4.png" style="width: 120px" />
+              </td>
+              <td>15 - 45 minutes (clay moulding)</td>
+              <td>20+ (depending on design)</td>
+              <td>2 - Medium</td>
+            </tr>
+            <tr class="unsorted4">
+              <td><img src="images/page 4_2.5.JPG" style="width: 120px" /></td>
+              <td>15 minutes - 1 hour (for a whole set)</td>
+              <td>4 - 5</td>
+              <td>3 - High</td>
+            </tr>
+            <tr class="unsorted4">
+              <td>
+                <img src="images/page 4_3.png" style="width: 120px" />
+              </td>
+              <td>15 - 30 minutes (one peice)</td>
+              <td>10+ (depending on design)</td>
+              <td>2 - Medium</td>
+            </tr>
+            <tr class="unsorted4">
+              <td>
+                <img src="images/page 4_4.png" style="width: 120px" />
+              </td>
+              <td>5 - 15 minutes</td>
+              <td>8+</td>
+              <td>3 - High</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      </div>
+      <div class="footer">
+        <p>
+          Copyright to Kurkalova Jewelry - Privacy Policy - Terms of User -
+          Accessibility
+        </p>
+        <a href="https://www.etsy.com/shop/KurkalovaJewelry?ref=profile_header"
+          ><img src="images/etsy.png" alt="Etsy logo" class="etsylogo"
+        /></a>
+        <a
+          href="https://www.instagram.com/kurkalova_jewelry/?igsh=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr"
+          ><img
+            src="images/instagram.png"
+            alt="Instagram logo"
+            class="instagramlogo"
+        /></a>
+        <a href="https://www.tiktok.com/@kurkalova_art?_t=8okTDh5L9rS&_r=1"
+          ><img
+            src="images/tik tok 2.webp"
+            alt="Tik Tok logo"
+            class="tiktoklogo"
+        /></a>
+        <p>skurkalova20@gmail.com</p>
+      </div>
+    </div>   
+    <script>
+      $(document).ready(function () {
+        $("table#boxing").tablesorter({
+          sortList: [
+            [2, 1],
+          ],
+          CssAsc: "tablesorter-headerAsc",
+          CssDesc: "tablesorter-headerDesc",
+        });
+      });
+    </script>  
+    </div>
+  </body>
+</html>

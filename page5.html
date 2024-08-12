@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cute Videos</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="body">
+    <div class="smaller">
+      <div class="mainparent">
+        <div class="navbar">
+          <img src="images/logo.png" alt="Logo" class="logoonscreen" />
+          <a href="index.html">HOME</a>
+          <a href="page2.html">PANDEMIC MADNESS</a>
+          <a href="page3.html">SKETCHING AND SUPPLIES</a>
+          <a href="page4.html">TOOLS AND TIMELINE</a>
+          <a href="page5.html">CUTE VIDEOS</a>
+          <a href="page6.html">DETAILS</a>
+          <a href="#"
+            ><img
+              src="images/search icon.webp"
+              alt="Search Icon"
+              class="searchicon"
+          /></a>
+          <a href="#"
+            ><img
+              src="images/shopping cart icon 1.png"
+              alt="Shopping Cart Icon"
+              class="shoppingcarticon"
+          /></a>
+        </div>
+        <div class="vl"></div>
+        <div class="mainchild">
+          <h1>Cute Videos</h1>
+          <h2 class="heading2">Glimpses of Behind-the-Scenes</h2>
+          <div class="unsorted12 unsorted13 unsorted5" id="claytime">
+            <div class="unsorted5">
+              <div class="unsorted6 unsorted8">
+                <iframe
+                  class="moviemadness"
+                  height="1120"
+                  width="630"
+                  src="https://youtube.com/embed/t838DIXS7AU?si=OLD9wzsnoa14__4X"
+                  title="Favorite Earrings"
+                  frameborder="0"
+                  allow="autoplay; encrypted-media"
+                >
+                </iframe>
+              </div>
+              <div class="unsorted6 unsorted8">
+                <iframe
+                  class="moviemadness"
+                  height="1120"
+                  width="630"
+                  src="https://youtube.com/embed/Gh5jNrPGxIk?si=ZiNcLawr-5tIkjFY"
+                  title="Tour of Part of my Workspace"
+                  frameborder="0"
+                  allow="autoplay; encrypted-media"
+                >
+                </iframe>
+              </div>
+              <div class="unsorted6 unsorted8">
+                <iframe
+                  class="moviemadness"
+                  height="1120"
+                  width="630"
+                  src="https://youtube.com/embed/zaWYea_Rsac?si=Yngfa2xR373MjbwC"
+                  title="Baked Polymer Clay ASMR"
+                  frameborder="0"
+                  allow="autoplay; encrypted-media"
+                >
+                </iframe>
+              </div>
+            </div>
+
+            <hr />
+
+            <div class="unsorted5">
+              <div class="brokenYouTubearrangement">
+                <div class="unsorted14 unsorted15" style="padding-right: 3px">
+                  <button
+                    onclick="myAccordion('accordion1')"
+                    class="unsorted16 unsorted17 unsorted3 unsorted8"
+                    id="accordionBtn1"
+                  >
+                    <h4>Uploading to Social Media</h4>
+                  </button>
+                  <div
+                    id="accordion1"
+                    class="unsorted18 unsorted13 unsorted5"
+                    style="height: 260px"
+                  >
+                    <p>
+                      Posting regularly is one of the toughest things about
+                      running a business. Most of the time, it's a hassle.
+                      Recording, editing, adding hastags - the whole process
+                      takes at least 30 minutes per post. Similar time frame
+                      with photo posts.
+                    </p>
+                  </div>
+                </div>
+                <div class="unsorted14 unsorted15" style="padding-left: 3px">
+                  <button
+                    onclick="myAccordion('accordion2')"
+                    class="unsorted16 unsorted17 unsorted3 unsorted8"
+                    id="accordionBtn1"
+                  >
+                    <h4>Ever-Changing Algorithm</h4>
+                  </button>
+                  <div
+                    id="accordion2"
+                    class="unsorted18 unsorted13 unsorted5"
+                    style="height: 260px"
+                  >
+                    <p>
+                      One of the most disheartening things about uploading
+                      content online for a business is dealing with the
+                      algorithm. As the title suggests, it changes frequently.
+                      It can get annoying and frustrating to keep up, and it
+                      discourages me, personally, from posting. Sadly, it's just
+                      the reality of posting online.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer">
+          <p>
+            Copyright to Kurkalova Jewelry - Privacy Policy - Terms of User -
+            Accessibility
+          </p>
+          <a
+            href="https://www.etsy.com/shop/KurkalovaJewelry?ref=profile_header"
+            ><img src="images/etsy.png" alt="Etsy logo" class="etsylogo"
+          /></a>
+          <a
+            href="https://www.instagram.com/kurkalova_jewelry/?igsh=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr"
+            ><img
+              src="images/instagram.png"
+              alt="Instagram logo"
+              class="instagramlogo"
+          /></a>
+          <a href="https://www.tiktok.com/@kurkalova_art?_t=8okTDh5L9rS&_r=1"
+            ><img
+              src="images/tik tok 2.webp"
+              alt="Tik Tok logo"
+              class="tiktoklogo"
+          /></a>
+          <p>skurkalova20@gmail.com</p>
+        </div>
+      </div>
+      <script>
+        function myAccordion(id) {
+          var x = document.getElementById(id);
+          if (x.className.indexOf("unsorted19") == -1) {
+            x.className += " unsorted19";
+            x.previousElementSibling.className =
+              x.previousElementSibling.className.replace(
+                "unsorted3",
+                "unsorted20"
+              );
+          } else {
+            x.className = x.className.replace(" unsorted19", "");
+            x.previousElementSibling.className =
+              x.previousElementSibling.className.replace(
+                "unsorted20",
+                "unsorted3"
+              );
+          }
+        }
+      </script>
+    </div>
+  </body>
+</html>

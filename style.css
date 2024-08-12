@@ -1,0 +1,453 @@
+#accordionBtn1:hover,
+#accordionBtn2:hover {
+  background-color: blanchedalmond !important;
+}
+
+.body {
+  background-image: url(images/background\ image.jpg);
+  background-size: 180vh 100%;
+  background-attachment: fixed;
+  background-repeat: repeat-x;
+}
+
+.brokenlightable {
+  box-sizing: border-box;
+  position: relative;
+  display: inline-flex;
+}
+
+.brokenrow > .brokencolumn {
+  padding: 10px;
+  position: relative;
+}
+
+.brokenrow:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.brokencolumn {
+  float: left;
+  width: 25%;
+}
+
+.unsorted6 > .unsorted13 .unsorted5 .unsorted12 {
+  padding: 0 10px;
+}
+
+.brokenscrolling {
+  position: relative;
+  display: inline-flex;
+  margin: auto;
+}
+
+.brokenYouTubearrangement {
+  position: relative;
+  display: inline-flex;
+  margin-top: auto;
+}
+
+.etsylogo {
+  width: 20px;
+  height: 20px;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: lightpink;
+  color: black;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 1px;
+}
+
+.heading2 {
+  color: lightpink;
+}
+
+.homepageimage {
+  width: 100%;
+}
+
+.hyperlink a {
+  color: lightpink;
+}
+
+.hyperlink a:hover {
+  color: black;
+}
+
+.instagramlogo {
+  width: 20px;
+  height: 20px;
+}
+
+.logoonscreen {
+  width: 130px;
+}
+
+.mainchild {
+  position: relative;
+  padding: 20px;
+  margin-left: 220px;
+  margin-bottom: 150px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+  scroll-behavior: smooth;
+}
+
+.mainchild2 {
+  position: relative;
+  padding-bottom: 20px;
+  margin-bottom: 50px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+  scroll-behavior: smooth;
+}
+
+.mainparent {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 10px;
+  scroll-behavior: smooth;
+}
+
+.moviemadness {
+  padding: 20px;
+}
+
+.my-scrolling {
+  height: 300px;
+  overflow: auto;
+  position: relative;
+  display: inline-block;
+}
+
+.mySlides {
+  max-width: 70%;
+  margin: auto;
+  position: relative;
+}
+
+.navbar {
+  width: 150px;
+  position: fixed;
+  background: white;
+  padding: 10px;
+  border: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline-block;
+}
+
+.navbar a {
+  padding: 20px 10px 20px 10px;
+  text-decoration: none;
+  font-size: 22px;
+  color: lightpink;
+  display: inline-block;
+  transition: 0.3s;
+}
+
+.navbar a:hover {
+  color: black;
+}
+
+.searchicon {
+  width: 50px;
+}
+
+.shoppingcarticon {
+  width: 50px;
+}
+
+.smaller {
+  position: relative;
+}
+
+.table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid black;
+  text-align: left;
+  padding: 10px;
+}
+
+.tableheadings {
+  color: lightpink;
+  font-weight: bold;
+}
+
+.tableparts {
+  border: 1px solid black;
+  padding: 5px;
+  text-align: left;
+}
+
+.tiktoklogo {
+  width: 20px;
+  height: 20px;
+}
+
+.unsorted1 {
+  padding: 10px 20px !important;
+}
+
+.unsorted2 {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  display: table;
+}
+
+.unsorted2 {
+  border: 1px solid #ccc;
+}
+
+.unsorted2 tr {
+  border-bottom: 1px solid #ddd;
+}
+
+.unsorted2 tr:nth-child(odd) {
+  background-color: #fff;
+}
+
+.unsorted2 tr:nth-child(even) {
+  background-color: #f1f1f1;
+}
+
+.unsorted2 td,
+.unsorted2 th {
+  padding: 8px 8px;
+  display: table-cell;
+  text-align: left;
+  vertical-align: top;
+}
+
+.unsorted2 th:first-child,
+.unsorted2 td:first-child {
+  padding-left: 10px;
+}
+
+.unsorted3,
+.unsorted3:hover {
+  color: #fff !important;
+  background-color: lightpink !important;
+}
+
+.unsorted4:hover {
+  color: #000 !important;
+  background-color: rgb(246, 235, 237) !important;
+}
+
+.unsorted5:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.unsorted6 {
+  width: 33.33333%;
+}
+
+.unsorted7 {
+  padding: 10px 20px !important;
+}
+
+.unsorted8 {
+  display: inline-block;
+  width: auto;
+  text-align: center !important;
+}
+
+.unsorted9 {
+  opacity: 1;
+}
+
+.unsorted10 {
+  width: 16%;
+  display: inline-block;
+  position: relative;
+}
+
+.unsorted11 {
+  opacity: 0.6;
+}
+
+.unsorted12 {
+  padding-top: 64px !important;
+  padding-bottom: 64px !important;
+}
+
+.unsorted13 {
+  padding: 0.01em 16px;
+}
+
+.unsorted14 {
+  width: 49.99999%;
+}
+
+.unsorted15 {
+  float: left !important;
+}
+
+.unsorted16 {
+  border: none;
+  display: inline-block;
+  padding: 8px 16px;
+  vertical-align: middle;
+  overflow: visible;
+  text-decoration: none;
+  color: inherit;
+  background-color: inherit;
+  text-align: center;
+  cursor: pointer;
+  white-space: normal;
+}
+
+.unsorted16 {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.unsorted16:disabled {
+  cursor: not-allowed;
+  opacity: 0.3;
+}
+
+.unsorted16:hover {
+  color: #000 !important;
+  background-color: #ccc !important;
+}
+
+.unsorted17 {
+  display: block;
+  width: 100%;
+}
+
+.unsorted18 {
+  display: none !important;
+}
+
+.unsorted19 {
+  display: block !important;
+}
+
+.unsorted20,
+.unsorted20:hover {
+  color: #000 !important;
+  background-color: #ff9800 !important;
+}
+
+.unsorted21:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.unsorted21 {
+  padding: 0 8px;
+}
+
+.unsorted22 {
+  z-index: 3;
+  display: none;
+  padding-top: 100px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.unsorted23,
+.unsorted23:hover {
+  color: #fff !important;
+}
+
+.unsorted24 {
+  font-size: 36px !important;
+}
+
+.unsorted25,
+.unsorted25:hover {
+  color: #555555 !important;
+}
+
+.unsorted26 {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.unsorted27 {
+  margin: auto;
+  position: relative;
+  padding: 0;
+  outline: 0;
+  width: 800px;
+}
+
+.unsorted28 {
+  animation: animatezoom 0.6s;
+}
+
+.unsorted29 {
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.vl {
+  width: 5px;
+  height: 755px;
+  position: fixed;
+  z-index: 1;
+  top: 20px;
+  left: 210px;
+  background: lightpink;
+  overflow-x: visible;
+  padding: 20px 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@media only screen (max-width: 600px) {
+  .smaller {
+    width: 20%;
+  }
+}
+
+@media only screen (min-width: 600px) {
+  .smaller {
+    width: 30%;
+  }
+}
+
+@media only screen (min-width: 768px) {
+  .smaller {
+    width: 75%;
+  }
+}
+
+@media only screen (max-width: 992px) {
+  .smaller {
+    width: 100%;
+  }
+}
+
+@media only screen (max-width: 1200px) {
+  .smaller {
+    width: 100%;
+  }
+}
